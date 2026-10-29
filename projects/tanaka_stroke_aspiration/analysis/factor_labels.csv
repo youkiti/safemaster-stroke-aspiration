@@ -1,0 +1,123 @@
+variable,label_ja,label_en
+age_band,10歳未満,<60
+age_band,10歳代,<60
+age_band,20歳代,<60
+age_band,30歳代,<60
+age_band,40歳代,<60
+age_band,50歳代,<60
+age_band,60歳代,60–69
+age_band,70歳代,70–79
+age_band,80歳代,80–89
+age_band,90歳代,≥90
+age_band,100歳代,≥90
+sex,男性,Male
+sex,女性,Female
+time_band,0:00~1:59,00:00–01:59
+time_band,2:00~3:59,02:00–03:59
+time_band,4:00~5:59,04:00–05:59
+time_band,6:00~7:59,06:00–07:59
+time_band,8:00~9:59,08:00–09:59
+time_band,10:00~11:59,10:00–11:59
+time_band,12:00~13:59,12:00–13:59
+time_band,14:00~15:59,14:00–15:59
+time_band,16:00~17:59,16:00–17:59
+time_band,18:00~19:59,18:00–19:59
+time_band,20:00~21:59,20:00–21:59
+time_band,22:00~23:59,22:00–23:59
+time_band,不明,Unknown
+time_band4,6:00~7:59,06:00–09:59 (breakfast time)
+time_band4,8:00~9:59,06:00–09:59 (breakfast time)
+time_band4,10:00~11:59,10:00–13:59 (lunch time)
+time_band4,12:00~13:59,10:00–13:59 (lunch time)
+time_band4,16:00~17:59,16:00–19:59 (dinner time)
+time_band4,18:00~19:59,16:00–19:59 (dinner time)
+time_band4,0:00~1:59,Other time or unknown
+time_band4,2:00~3:59,Other time or unknown
+time_band4,4:00~5:59,Other time or unknown
+time_band4,14:00~15:59,Other time or unknown
+time_band4,20:00~21:59,Other time or unknown
+time_band4,22:00~23:59,Other time or unknown
+time_band4,不明,Other time or unknown
+discoverer,当事者本人,Staff member involved
+discoverer,患者本人,Patient
+discoverer,家族・付き添い,Family member or attendant
+discoverer,他患者,Another patient
+discoverer,同職種者,Colleague of the same profession
+discoverer,他職種者,Staff of another profession
+discoverer,その他,Other
+job,医師,Physician
+job,看護師,Nurse
+job,准看護師,Licensed practical nurse
+job,看護助手,Nursing assistant
+job,言語聴覚士（ST）,Speech-language pathologist
+job,作業療法士（OT）,Occupational therapist
+job,理学療法士（PT）,Physical therapist
+job,臨床検査技師,Clinical laboratory technologist
+job,臨床工学技士,Clinical engineer
+job,衛生検査技師,Sanitary laboratory technologist
+job,診療放射線技師,Radiological technologist
+job,薬剤師,Pharmacist
+job,助産師,Midwife
+job,歯科医師,Dentist
+job,歯科衛生士,Dental hygienist
+job,歯科技工士,Dental technician
+job,管理栄養士,Registered dietitian
+job,栄養士,Dietitian
+job,調理師・調理従事者,Cook or kitchen staff
+job,その他,Other
+patient_state,意識障害,Impaired consciousness
+patient_state,下肢障害,Lower-limb impairment
+patient_state,構音障害,Dysarthria
+patient_state,視覚障害,Visual impairment
+patient_state,床上安静,Bed rest
+patient_state,上肢障害,Upper-limb impairment
+patient_state,睡眠中,Asleep
+patient_state,精神障害,Psychiatric disorder
+patient_state,聴覚障害,Hearing impairment
+patient_state,認知症・健忘,Dementia or amnesia
+patient_state,歩行障害,Gait disturbance
+patient_state,麻酔中・麻酔前後,Under or around anesthesia
+patient_state,薬剤の影響下,Under the influence of drugs
+patient_state,その他特記する心身状態あり,Other notable physical or mental state
+eligibility,組入れ,Included
+eligibility,除外,Excluded
+exclusion_reason,脳卒中の記載なし・TIA・外傷性・慢性硬膜下血腫のみ,"No stroke, TIA, traumatic, or chronic subdural only"
+exclusion_reason,経管栄養・胃瘻・経鼻胃管など経口以外,Tube feeding or other non-oral route
+exclusion_reason,唾液・嘔吐物・痰,"Saliva, vomit, or sputum"
+exclusion_reason,経口薬のみ,Oral medication only
+exclusion_reason,誤嚥性肺炎の記載のみで食事の場面が不明,Aspiration pneumonia only; no meal scene
+exclusion_reason,誤嚥・窒息ではない,Not aspiration or choking
+exclusion_reason,重複報告,Duplicate report
+exclusion_reason,その他,Other
+stroke_position,主病態・管理中の後遺症,Primary condition or managed sequela
+stroke_position,併存・既往,Comorbidity or history
+stroke_position,判定不能,Unclear
+stroke_type,脳梗塞,Cerebral infarction
+stroke_type,脳内出血,Intracerebral hemorrhage
+stroke_type,くも膜下出血,Subarachnoid hemorrhage
+stroke_type,病型不明,Type not specified
+event_type,窒息・気道閉塞,Choking or airway obstruction
+event_type,誤嚥,Aspiration
+event_type,判定不能,Unclear
+intake,食事・食品,Food
+intake,飲水・飲料,Fluid
+intake,両方,Both food and fluid
+intake,不明,Unknown
+assistance,介助あり,Assisted
+assistance,自力摂取,Self-feeding
+assistance,不明,Unknown
+presence,他者同席あり,Others present
+presence,患者のみ,Patient alone
+presence,不明,Unknown
+swallow,評価済みが明記,Assessed before the event
+swallow,評価前・未実施が明記,Not assessed before the event
+swallow,判定不能,Unclear
+deviation,明記あり,Deviation or communication failure documented
+deviation,なし・不明,None or unknown
+meal,朝食,Breakfast
+meal,昼食,Lunch
+meal,夕食,Dinner
+meal,その他・不明,Other or unknown
+rescue,あり,Yes
+rescue,なし,No
+rescue,不明,Unknown

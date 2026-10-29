@@ -1,0 +1,5 @@
+projects/tanaka_stroke_aspiration/analysis/*.csv text eol=lf
+*.R text eol=lf
+*.Rmd text eol=lf
+*.py text eol=lf
+*.md text eol=lf
