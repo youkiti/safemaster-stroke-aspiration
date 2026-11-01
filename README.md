@@ -122,4 +122,6 @@ Repository licences do not grant rights to JCQHC source data or judgement logs.
 
 ## Citation
 
+Archived at Zenodo: https://doi.org/10.5281/zenodo.23857493 (version 1.0.0).
+
 Please cite the associated manuscript: 〔citation to be added〕. When reusing the prompts or criteria, credit Yuki Kataoka and Tatsuya Tanaka, link to this repository and the CC BY 4.0 licence, and indicate any changes, including translation.
