@@ -177,7 +177,7 @@ pipe_tab(table_s4)
 - **Sensitivity definitions.** Table S1 gives two wider definitions; they are not used in the main tables.
 - **Candidate selection.** Candidates were selected by keywords and codes, then judged by two reviewers without any AI-generated draft.
   Reports that were never retrieved by the keywords are not part of the cohort.
-- **Voluntary reporting.** Reports are voluntary; the numbers describe the composition of the reports received and are not incidence or risk.
+- **Reporting.** Reports come from institutions required to report and from voluntary participants; the numbers describe the composition of the reports received and are not incidence or risk.
 - **Statistics.** No p-values were computed and no regression was fitted.
 
 ## Software
