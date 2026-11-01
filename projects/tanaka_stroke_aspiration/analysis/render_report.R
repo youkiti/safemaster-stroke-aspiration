@@ -4,7 +4,7 @@
 # Resolve the project folder with Sys.glob.
 # Unset LC_ALL, LANG and LC_CTYPE before running Rscript on Windows.
 # Outputs: output/{synth,prod}_report.html and output/{synth,prod}_report.docx.
-# The report needs output/{prefix}_final_classification.csv from analysis/03_app_intake.R.
+# The report needs output/{prefix}_final_classification.csv from analysis/05b_stage2_final.R.
 root <- normalizePath(".", winslash = "/", mustWork = TRUE)
 stopifnot(file.exists(file.path(root, "README.md")),
           file.exists(file.path(root, "shared", "safe_cols.R")))

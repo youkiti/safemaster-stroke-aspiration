@@ -56,6 +56,8 @@ Determine the meal during which the incident occurred in the following order.
 2. If no meal is named, use the incident time (or meal start time) stated in the narrative: Breakfast（朝食） 6:00–9:59, Lunch（昼食） 11:00–13:59, Dinner（夕食） 17:00–19:59. Other times are other or unknown.
 3. If the narrative also lacks a time, use the incident time band field: 6:00–7:59 and 8:00–9:59 indicate breakfast, 12:00–13:59 lunch, and 18:00–19:59 dinner. The bands 10:00–11:59, 14:00–15:59 and 16:00–17:59 cross meal boundaries, so select other or unknown. All other time bands are also other or unknown.
 
+Addendum (rule added during human review; not part of the AI prompt): intake that was not part of a regular meal (swallowing training and food brought by visitors) is classified as Other or unknown（その他・不明）, even if the time overlaps a meal period.
+
 ### Life-saving intervention（救命介入） (unchanged from v1; classify only for Choking or airway obstruction（窒息・気道閉塞）)
 - Yes（あり）: an intervention intended to save life or remove a foreign body (suction, back blows, abdominal thrusts, laryngoscopy, etc.) was performed.
 - No（なし）: it can be established that no intervention intended to save life or remove a foreign body was performed.

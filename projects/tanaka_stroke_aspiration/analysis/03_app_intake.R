@@ -77,7 +77,7 @@ STAGE2 <- "--stage2" %in% ARGS
 if (STAGE1 == STAGE2) {
   stop("使い方: Rscript analysis/03_app_intake.R --stage1|--stage2 [--prod]\n",
        "  --stage1  全候補の適格性の取り込み（最終結果: {prefix}_final_eligibility.csv）\n",
-       "  --stage2  第1段階で組入れの事例の分類の取り込み（最終結果: {prefix}_final_classification.csv）\n",
+       "  --stage2  第1段階で組入れの事例の分類の取り込み（最終結果の {prefix}_final_classification.csv は 05b_stage2_final.R が作る）\n",
        "  --stage1 と --stage2 は同時に指定できない")
 }
 STAGE <- if (STAGE1) "stage1" else "stage2"

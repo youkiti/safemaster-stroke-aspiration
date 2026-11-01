@@ -28,7 +28,7 @@ Repository-level `shared/` contains the column-access helpers, flow-diagram func
 
 ## Data and prerequisites
 
-Reports originate from the public database of the Japan Council for Quality Health Care (JCQHC), [Project to Collect Medical Near-Miss/Adverse Event Information](https://www.med-safe.jp/). Obtain the reports from that service under its applicable terms. Source reports, synthetic source data and derived review outputs are not distributed here. This repository does not contain a downloader or a converter from public database exports to the study's r19 schema.
+Reports originate from the public database of the Japan Council for Quality Health Care (JCQHC), [Project to Collect Medical Near-Miss/Adverse Event Information](https://www.med-safe.jp/). Obtain the reports from that service under its applicable terms. Source reports, synthetic source data and derived review outputs are not distributed here, with one exception: `analysis/stage2_exclusions.csv` and `analysis/04a_pilot10_gold_v2.py` contain report identifiers with their exclusion summaries or corrected classification values, because the final classification depends on them. This repository does not contain a downloader or a converter from public database exports to the study's r19 schema.
 
 For production runs, place `safemaster_r19_text.rds` in the repository-level `data/` directory. This must be an RDS data frame of the 2013–2024 r19 reports, read with **every column as character**, duplicate column names made unique with `make.unique`, and dictionary-defined unknown codes already converted to `NA`. Blank values and the string `.` represent missing data; the loaders also replace `.` with `NA`. Preserve the r19 column names and code system, including `患者区分 = 2` for inpatients. The newer 2013–2025 dataset has a different schema and inpatient coding and cannot be substituted. Production checks expect 54,310 reports, 48,441 inpatient reports and candidate tiers T1–T4 of 10, 39, 85 and 134.
 
@@ -122,6 +122,6 @@ Repository licences do not grant rights to JCQHC source data or judgement logs.
 
 ## Citation
 
-Archived at Zenodo: https://doi.org/10.5281/zenodo.23857493 (version 1.0.0).
+Archived at Zenodo: https://doi.org/10.5281/zenodo.23857492 (resolves to the latest version).
 
 Please cite the associated manuscript: 〔citation to be added〕. When reusing the prompts or criteria, credit Yuki Kataoka and Tatsuya Tanaka, link to this repository and the CC BY 4.0 licence, and indicate any changes, including translation.
