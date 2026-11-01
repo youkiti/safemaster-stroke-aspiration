@@ -1,0 +1,24 @@
+{
+  "title": "Classification and analysis materials for a descriptive study of aspiration and choking during food or fluid intake in stroke inpatients (JCQHC adverse-event reports, Japan)",
+  "description": "Search strategy, AI classification prompt (Japanese original and English translation), classification criteria, codebook and analysis code. Source incident reports and review judgement logs are not included. Code is under the MIT licence; the prompt files, criteria and codebook are under CC BY 4.0 (see LICENSE-docs.md).",
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Tanaka, Tatsuya",
+      "affiliation": "International University of Health and Welfare Narita Hospital"
+    },
+    {
+      "name": "Kataoka, Yuki",
+      "affiliation": "Nagoya University Hospital"
+    }
+  ],
+  "keywords": [
+    "stroke",
+    "aspiration",
+    "choking",
+    "patient safety",
+    "adverse-event reports",
+    "large language model"
+  ]
+}
